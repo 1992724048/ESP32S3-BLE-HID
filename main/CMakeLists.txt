@@ -1,0 +1,27 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "BSP/LCD/lcd.cpp"
+        "BSP/SPI/spi.cpp"
+        "BSP/KEY/key.cpp"
+        "BSP/LED/led.cpp"
+        "BSP/SDIO/exfuns.cpp"
+        "BSP/SDIO/spi_sdcard.cpp"
+        "config/Config.cpp"
+        "events/joins/abstracteventjoin.cpp"
+        "events/joins/eventjoinwrapper.cpp"
+        "fetures/HID/HID.cpp"
+        "fetures/Battery/Battery.cpp"
+        "fetures/Event/Event.cpp"
+    INCLUDE_DIRS
+        "."
+        "BSP/LCD"
+        "BSP/SPI"
+        "BSP/KEY"
+        "BSP/LED"
+        "BSP/SDIO"
+        "config"
+        "events"
+        "fetures"
+    REQUIRES driver fatfs nvs_flash spiffs esp_tinyusb tinyusb esp_timer esp_wifi bt
+)

@@ -1,0 +1,31 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\A1992\\esp\\v5.5\\esp-idf",
+  "idf.toolsPathWin": "C:\\Espressif",
+  "idf.pythonInstallPath": "C:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.flashType": "UART",
+  "idf.portWin": "COM3",
+  "idf.monitorPort": "COM3",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp_ftdi.cfg",
+    "target/esp32s3.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=e:\\CODE\\HIDMouse\\blink\\build"
+  ],
+  "files.associations": {
+    "esp32_s3_lcd_ev_board.h": "c",
+    "freertos.h": "c",
+    "esp_lcd_panel_io.h": "c",
+    "sdkconfig.h": "c",
+    "esp_lcd_panel_ops.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "enabled",
+  "idf.adapterTargetName": "esp32s3"
+}
